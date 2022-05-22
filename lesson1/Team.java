@@ -37,8 +37,8 @@ public class Team {
         for (int i = 0; i < animal.length; i++) {
             if (animal[i] != null) {
                 System.out.println(animal[i] + " преодолел всю дистанцию за " + df.format(courses.getTime()[i] ) + " мин.");
-                x = 1;
-            } else  x = 0;
+                x++;
+            }
         }
         if (x == 0) System.out.println("Победителей нет.");
     }
