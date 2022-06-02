@@ -3,7 +3,7 @@ package lesson_5;
 import java.io.*;
 
 public class Files {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         String[] header = {"Value 1", "Value 2", "Value 3"};
         int[][] data = {{100, 200, 123},
                 {300, 400, 500}};
